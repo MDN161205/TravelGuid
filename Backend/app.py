@@ -114,6 +114,7 @@ def generate_audio_guide():
         "audioBase64": encoded_audio
     }
 
+
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
